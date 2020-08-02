@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #131921;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin: 5% 10px 2% 10px;
+    padding: 0;
+}
+
+.header_basket{
+    display: flex;
+    align-items: center;
+}
+
+.header_basketCount{
+    margin: 0 10px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.header_optionLineOne{
+    font-size: 10px;
+}
+
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header_link{
+    color: white;
+    text-decoration: none;
+}
+
+.search_bar{
+    display: flex;
+    flex: 1;
+    width: 30%;
+    height: 30px;
+    margin: 0 0 0 2%;
+    align-items: center;
+}
+
+.header_input{
+    width: 100%;
+    height: inherit;
+    padding: 0 0 0 10px;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+.header_input:focus{
+    border-top: solid 3px orange;
+    border-bottom: solid 3px orange;
+    border-left: solid 3px orange;
+}
+
+.header_input:focus ~ .Buscar{
+    border-top: solid 3px orange;
+    border-bottom: solid 3px orange;
+    border-right: solid 3px orange;
+}
+
+.Buscar{
+    background-color: chocolate;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    height: inherit ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
